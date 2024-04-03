@@ -70,9 +70,9 @@ public class Point2D
 		
 		public void distance(int x, int y)
 		{	
-			double b = Math.pow((x-this.x),2);
-			double l= Math.pow((y-this.y),2);
-			double d = Math.sqrt(b+l);
+			double a = Math.pow((x-this.x),2);
+			double b= Math.pow((y-this.y),2);
+			double d = Math.sqrt(a+b);
 			System.out.println("distance between two point is equal to =  "+d);
 		}
 		
